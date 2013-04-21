@@ -12,16 +12,12 @@ class MyMinimal( Topo ):
         # Initialize topology
         Topo.__init__( self )
 
-        # Add controllers
-        #controller1 = self.addController( 'c1' )
-
         # Add hosts and switches
         host1 = self.addHost( 'h1' )
         host2 = self.addHost( 'h2' )
         switch1 = self.addSwitch( 's1' )
 
         # Add links
-        #self.addLink( controller1, switch1 )
         self.addLink( host1, switch1 )
         self.addLink( host2, switch1 )
 
