@@ -3,6 +3,7 @@
 # Michael Rudden
 
 from mininet.topo import Topo
+from mininet.node import Controller
 
 class OpenFlowTutorial( Topo ):
     "OpenFlow Tutorial Topology"
