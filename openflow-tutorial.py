@@ -15,9 +15,9 @@ class OpenFlowTutorial( Topo ):
         Topo.__init__( self )
 
         # Add controllers
-        controller1 = self.addController( 'c1' )
-        controller2 = self.addController( 'c2' )
-        controller3 = self.addController( 'c3' )
+        controller1 = Controller( 'c1' )
+        controller2 = Controller( 'c2' )
+        controller3 = Controller( 'c3' )
 
         # Add hosts and switches
         switch1 = self.addSwitch( 's1' )
